@@ -17,31 +17,26 @@ namespace FizzBizz
             int fizzBuzz =   0;
             int fizz     =   0; 
             int buzz     =   0;
+            string ans = "";
 
             // Loop to 1000 find div 3 & 5
-
             for (int i = 1; i <= 1000; i++) {
-                string ans = "";
                 if(i % 3 == 0 && i % 5 == 0)
                 {
-                    ans = "FizzBuzz";
-                    Console.WriteLine(ans);
+                    ans += "FizzBuzz";
                     fizzBuzz++;
                 } else if(i % 3 == 0){
-                    ans = "Fizz";
-                    Console.WriteLine(ans);
+                    ans += "Fizz";
                     fizz++;
-
                 }else if (i % 5 == 0 ){
-                    ans = "Buzz";
-                    Console.WriteLine(ans);
+                    ans += "Buzz";
                     buzz++;
                 }else{
                     Console.WriteLine(i);
                 }
 
             }
-
+            Console.WriteLine(ans + "\n");
             Console.WriteLine($" FuzzBuzz: {fizzBuzz}, Fizz: {fizz}, buzz: {buzz}");
 
         }
