@@ -31,9 +31,9 @@ namespace FizzBuzz
                     Console.WriteLine(i);
                 }
             }
-            System.Console.WriteLine("Fizz= " + fizzCnt);
-            System.Console.WriteLine("Buzz= " + buzzCnt);
-            System.Console.WriteLine("FizzBuzz= " + fizzbuzzCnt);
+            System.Console.WriteLine("Number of Fizz= " + fizzCnt);
+            System.Console.WriteLine("Number of Buzz= " + buzzCnt);
+            System.Console.WriteLine("Number of FizzBuzz= " + fizzbuzzCnt);
         }
     }
 }
