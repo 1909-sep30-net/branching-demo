@@ -30,6 +30,11 @@ namespace Fizzbuzz
                     divFive++;
                 }
 
+                else
+                {
+                    Console.WriteLine("No Fizz, No Buzz: {0}", i);
+                }
+
                 
             }
             Console.WriteLine("Fizz - Divisible by three: " + divThree);
