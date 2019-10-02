@@ -11,17 +11,17 @@ namespace FizzBuzz
             int fizzbuzzCnt = 0;
             for (int i = 1; i <= 1000; i++)
             {
-                if ((i % 3 == 0) & (i % 5 != 0))
+                if ((i % 3 == 0) && (i % 5 != 0))
                 {
                     Console.WriteLine("Fizz");
                     fizzCnt++;
                 }
-                else if ((i % 5 == 0) & (i % 3 != 0))
+                else if ((i % 5 == 0) && (i % 3 != 0))
                 {
                     Console.WriteLine("Buzz");
                     buzzCnt++;
                 }
-                else if ((i % 3 == 0) & (i % 5 == 0))
+                else if ((i % 3 == 0) && (i % 5 == 0))
                 {
                     Console.WriteLine("FizzBuzz");
                     fizzbuzzCnt++;
