@@ -10,7 +10,7 @@ namespace Fizzbuzz
                 int Fizz = 0;
                 int Buzz = 0;
                 int Fizzbuzz = 0;
-            for(int num = 0; num < 1000; num++)
+            for(int num = 0; num <= 1000; num++)
             {
 
 
