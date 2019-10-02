@@ -23,7 +23,7 @@ namespace FizzBuzz
              int countBuzz = 0;
              int countFizzbuzz = 0;
 
-             while(count < 1000)
+             while(count <= 1000)
              {
                  count++;
                  if (count % 3 == 0 && count % 5 != 0)
