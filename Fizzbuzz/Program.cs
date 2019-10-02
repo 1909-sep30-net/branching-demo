@@ -12,22 +12,19 @@ namespace Fizzbuzz
 
             for(int i = 1; i < 1001; i++)
             {
-                int modThree = i % 3;
-                int modFive = i % 5;
-
-                if(modThree == 0 && modFive == 0)
+                if(i % 3 == 0 && i % 5 == 0)
                 {
                     Console.WriteLine("Fizzbuzz:  " + i);
                     divThreeAndFive++;
                 }
 
-                if(modThree == 0 && modFive != 0)
+                else if(i % 3 == 0 && i % 5 != 0)
                 {
                     Console.WriteLine("Fizz:  " + i);
                     divThree++;
                 }
 
-                if(modThree != 0 && modFive == 0)
+                else if(i % 3 != 0 && i % 5 == 0)
                 {
                     Console.WriteLine("Buzz:  " + i);
                     divFive++;
